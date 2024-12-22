@@ -10,167 +10,222 @@ var QuestionArr = [
     Correctopt: "Hyper Text Markup Language",
   },
   {
-    question: "Which HTML tag is used to create a paragraph?",
-    options: ["<h1>", "<div>", "<span>", "<p>"],
-    Correctopt: "<p>",
+    question: "Which programming language is known as the language of the web?",
+    options: ["Python", "JavaScript", "C++", "Ruby"],
+    Correctopt: "JavaScript",
   },
   {
-    question: "What is the correct HTML tag for inserting a line break?",
-    options: ["<break>", "<br>", "Jupiter", "<hr>"],
-    Correctopt: "<br>",
+    question: "Which symbol is used for comments in JavaScript?",
+    options: ["//", "<!-- -->", "#", "/* */"],
+    Correctopt: "//",
   },
   {
-    question:
-      "Which attribute specifies a unique identifier for an HTML element?",
-    options: ["class", "style", "id", "href"],
-    Correctopt: "id",
-  },
-  {
-    question: "What is the correct syntax for creating a hyperlink?",
+    question: "What does CSS stand for?",
     options: [
-      "<a href= 'url' >Link</a>",
-      "<link src= 'url' >Link</link>",
-      "<hyperlink>Link</hyperlink>",
-      "<url>Link</url>",
+      "Cascading Style Sheets",
+      "Creative Style Sheets",
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
     ],
-    Correctopt: "<a href= 'url' >Link</a>",
+    Correctopt: "Cascading Style Sheets",
   },
   {
-    question: "Which tag is used to define a table in HTML?",
-    options: ["<tbl>", "<table>", "<td>", "<tr>"],
-    Correctopt: "<table>",
-  },
-  {
-    question: "How do you create an unordered list in HTML?",
-    options: ["<ol>", "<list>", "<u>", "<ul>"],
+    question: "Which HTML tag is used to define an unordered list?",
+    options: ["<ul>", "<ol>", "<list>", "<li>"],
     Correctopt: "<ul>",
   },
   {
-    question: "What is the correct HTML for adding a background color?",
+    question: "What is the correct syntax for declaring a JavaScript variable?",
+    options: ["var myVar;", "variable = myVar;", "v myVar;", "declare myVar;"],
+    Correctopt: "var myVar;",
+  },
+  {
+    question: "What is the default value of the position property in CSS?",
+    options: ["static", "relative", "absolute", "fixed"],
+    Correctopt: "static",
+  },
+  {
+    question: "Which HTML element is used for the largest heading?",
+    options: ["<h1>", "<heading>", "<h6>", "<head>"],
+    Correctopt: "<h1>",
+  },
+  {
+    question: "What is the correct file extension for JavaScript files?",
+    options: [".js", ".java", ".script", ".jsx"],
+    Correctopt: ".js",
+  },
+  {
+    question: "What does the 'alt' attribute in <img> tag do?",
     options: [
-      "<body style= 'background-color:blue;'>",
-      "<body bg='blue'>",
-      "<background>blue</background>",
-      "<body style='color:blue;'>",
+      "Defines image size",
+      "Provides alternative text for the image",
+      "Sets the image position",
+      "Links the image to another file",
     ],
-    Correctopt: "<body style= 'background-color:blue;'>",
+    Correctopt: "Provides alternative text for the image",
   },
   {
-    question: "How do you specify a title for a web page?",
-    options: ["<meta>", "<head>", "<title>", "<name>"],
-    Correctopt: "<title>",
+    question: "Which HTML attribute is used to define inline styles?",
+    options: ["class", "style", "id", "css"],
+    Correctopt: "style",
   },
   {
-    question: "Which tag is used for emphasized text?",
-    options: ["<strong>", "<em>", "<i>", "<b>"],
-    Correctopt: "<em>",
+    question:
+      "Which JavaScript function is used to display data in a dialog box?",
+    options: ["alert()", "display()", "message()", "show()"],
+    Correctopt: "alert()",
   },
   {
-    question: "Which tag is used to create a form in HTML?",
-    options: ["<form>", "<input>", "<textarea>", "<fieldset>"],
-    Correctopt: "<form>",
-  },
-  {
-    question: "What is the correct input type for submitting a form?",
+    question: "What is the correct way to link a CSS file to an HTML document?",
     options: [
-      "<input type='text'>",
-      "<input type='button'>",
-      "<input type='reset'>",
-      "<input type='submit'>",
+      "<link rel='stylesheet' href='style.css'>",
+      "<style src='style.css'>",
+      "<css file='style.css'>",
+      "<stylesheet>style.css</stylesheet>",
     ],
-    Correctopt: "<input type='submit'>",
+    Correctopt: "<link rel='stylesheet' href='style.css'>",
   },
   {
-    question: "Which attribute is used to group form elements?",
-    options: ["id", "action", "name", "method"],
-    Correctopt: "name",
+    question:
+      "Which operator is used to assign a value to a variable in JavaScript?",
+    options: ["=", "==", "===", ":"],
+    Correctopt: "=",
   },
   {
-    question: "What is the correct HTML for making a checkbox?",
-    options: [
-      "<checkbox>",
-      "<input type='check'>",
-      "<input type='box'>",
-      "<input type='checkbox'>",
-    ],
-    Correctopt: "<input type='checkbox'>",
+    question: "What is the correct HTML element for inserting a line break?",
+    options: ["<lb>", "<br>", "<break>", "<line>"],
+    Correctopt: "<br>",
   },
   {
-    question: "How do you create a dropdown list in HTML?",
-    options: ["<dropdown>", "<select>", "<list>", "<ul>"],
-    Correctopt: "<select>",
-  },
-  {
-    question: "Which HTML tag is used to define an image?",
-    options: ["<picture>", "<image>", "<src>", "<img>"],
-    Correctopt: "<img>",
-  },
-  {
-    question: "What is the correct HTML for adding a video?",
-    options: ["<movie>", "<media>", "<video controls>", "<vid>"],
-    Correctopt: "<video controls>",
-  },
-  {
-    question: "Which attribute is required in the <img> tag?",
-    options: ["alt", "src", "width", "height"],
-    Correctopt: "src",
-  },
-  {
-    question: "How do you define an audio file in HTML?",
-    options: ["<audio>", "<music>", "<sound>", "<voice>"],
-    Correctopt: "<audio>",
-  },
-  {
-    question: "What does the <a> tag define?",
-    options: [
-      "An anchor point",
-      "A hyperlink",
-      "A text decoration",
-      "A paragraph",
-    ],
-    Correctopt: "A hyperlink",
-  },
-  {
-    question: "Which HTML5 tag is used to define navigation links?",
-    options: ["<nav>", "<menu>", "<navigate>", "<ul>"],
+    question: "Which tag is used to define a section of navigation links?",
+    options: ["<nav>", "<menu>", "<navigation>", "<ul>"],
     Correctopt: "<nav>",
   },
   {
-    question: "What is the <article> tag used for?",
-    options: [
-      "To define a navigation section",
-      "To define the main header",
-      "To define self-contained content",
-      "To define a paragraph",
-    ],
-    Correctopt: " To define self-contained content",
+    question: "Which CSS property controls text color?",
+    options: ["text-color", "color", "font-color", "style-color"],
+    Correctopt: "color",
   },
   {
-    question: "Which tag is used to define a footer for a document?",
-    options: ["<bottom>", "<footer>", "<end>", "<tail>"],
-    Correctopt: "<footer>",
+    question: "What does the <canvas> element in HTML do?",
+    options: [
+      "Displays video",
+      "Creates a graphics container",
+      "Displays an image",
+      "Defines a frame",
+    ],
+    Correctopt: "Creates a graphics container",
   },
   {
-    question: "What is the purpose of the <aside> tag?",
+    question: "What is the purpose of the 'defer' attribute in a script tag?",
     options: [
-      "To define the main header",
-      "To emphasize text",
-      "To define content aside from the main content",
-      "To create a sidebar",
+      "Loads the script asynchronously",
+      "Delays script execution until the HTML is parsed",
+      "Preloads the script",
+      "Executes the script in the background",
     ],
-    Correctopt: "To define content aside from the main content",
+    Correctopt: "Delays script execution until the HTML is parsed",
+  },
+  {
+    question: "Which attribute specifies the URL of an image in an <img> tag?",
+    options: ["src", "href", "alt", "url"],
+    Correctopt: "src",
+  },
+  {
+    question: "What is the purpose of the <meta> tag in HTML?",
+    options: [
+      "Defines metadata about the HTML document",
+      "Creates a link to a CSS file",
+      "Inserts a script",
+      "Defines the document's header",
+    ],
+    Correctopt: "Defines metadata about the HTML document",
+  },
+  {
+    question: "Which method is used to find an element by ID in JavaScript?",
+    options: [
+      "document.querySelector()",
+      "document.getElementById()",
+      "document.findElement()",
+      "document.getElementByName()",
+    ],
+    Correctopt: "document.getElementById()",
+  },
+  {
+    question: "Which HTML attribute specifies that an input field is required?",
+    options: ["required", "mandatory", "necessary", "obligatory"],
+    Correctopt: "required",
+  },
+  {
+    question: "What does 'JSON' stand for?",
+    options: [
+      "JavaScript Object Notation",
+      "Java Source Object Notation",
+      "JavaScript Offline Notation",
+      "JavaScript Object Namespace",
+    ],
+    Correctopt: "JavaScript Object Notation",
+  },
+  {
+    question: "Which event is triggered when a form is submitted?",
+    options: ["submit", "send", "formSubmit", "save"],
+    Correctopt: "submit",
+  },
+  {
+    question: "Which HTML element is used to play audio files?",
+    options: ["<audio>", "<sound>", "<music>", "<media>"],
+    Correctopt: "<audio>",
+  },
+  {
+    question:
+      "What is the correct syntax for writing a function in JavaScript?",
+    options: [
+      "function myFunction() {}",
+      "def myFunction() {}",
+      "function = myFunction {}",
+      "func myFunction() {}",
+    ],
+    Correctopt: "function myFunction() {}",
+  },
+  {
+    question: "Which CSS property is used to make the text bold?",
+    options: ["font-weight", "bold", "font-style", "text-bold"],
+    Correctopt: "font-weight",
+  },
+  {
+    question: "What does the 'console.log()' function do in JavaScript?",
+    options: [
+      "Logs data to the browser's console",
+      "Writes data to the webpage",
+      "Creates a log file",
+      "Displays an alert box",
+    ],
+    Correctopt: "Logs data to the browser's console",
+  },
+  {
+    question: "What does the <header> tag represent in HTML?",
+    options: [
+      "A footer section",
+      "An introductory content section",
+      "A side navigation bar",
+      "A main content block",
+    ],
+    Correctopt: "An introductory content section",
   },
 ];
 var form = document.getElementById("form");
+var main = document.getElementById("main");
+var mainCont = document.getElementsByClassName("main-cont")[0];
 
 for (var i = 0; i < QuestionArr.length; i++) {
   var questionsDiv = document.createElement("div");
   questionsDiv.setAttribute("class", "qDivs");
-  var questions = document.createElement("p");
+  var questions = document.createElement("label");
   questions.innerText = `Q.${i + 1} : ${QuestionArr[i].question}`;
+  questions.setAttribute("name", `question${i + 1}`);
   questionsDiv.appendChild(questions);
 
-  for (j = 0; j < QuestionArr[i].options.length; j++) {
+  for (var j = 0; j < QuestionArr[i].options.length; j++) {
     var optionsDiv = document.createElement("div");
     optionsDiv.setAttribute("class", "optionsDiv");
     var radioBtns = document.createElement("input");
@@ -179,20 +234,44 @@ for (var i = 0; i < QuestionArr.length; i++) {
     radioBtns.setAttribute("name", `question${i + 1}`);
     radioBtns.setAttribute("id", `${QuestionArr[i].options[j]}`);
     radioBtns.setAttribute("value", `${QuestionArr[i].options[j]}`);
-    // console.log(radioBtns);
 
     optionsDiv.appendChild(radioBtns);
     var labels = document.createElement("label");
     labels.innerText = QuestionArr[i].options[j];
     labels.setAttribute("for", `${QuestionArr[i].options[j]}`);
+    labels.setAttribute("class", "label");
     optionsDiv.appendChild(labels);
     questionsDiv.appendChild(optionsDiv);
   }
   form.appendChild(questionsDiv);
 }
 
+function submission(e) {
+  e.preventDefault();
+  var score = 0;
+  for (let i = 0; i < QuestionArr.length; i++) {
+    let elements = document.getElementsByName(`question${i + 1}`);
+    for (let j = 0; j < elements.length; j++) {
+      if (elements[j].checked) {
+        if (elements[j].value === QuestionArr[i].Correctopt) {
+          score = score + 3.33333333333;
+          console.log(score);
+        }
+        break;
+      }
+    }
+  }
+}
+
 let submitBtn = document.createElement("button");
 submitBtn.innerText = "Submit";
 submitBtn.setAttribute("type", "Submit");
-// console.log(submitBtn);
+submitBtn.setAttribute("onclick", "result()");
 form.appendChild(submitBtn);
+
+function result() {
+  let modal = document.createElement("div");
+  modal.setAttribute("class", "modal");
+  main.appendChild(modal);
+  mainCont.remove();
+}
