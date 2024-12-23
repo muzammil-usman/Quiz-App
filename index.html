@@ -12,13 +12,15 @@
       <div class="main-cont">
         <form action="" onsubmit="through(event)">
           <label for="username">Enter your name</label>
-          <span></span>
+          <span id="error"></span>
           <input
             type="text"
             name="studentName"
             id="username"
             placeholder="Enter Your Name"
             maxlength="15"
+            autofocus
+            oninput="nameLengthChecker(event)"
           />
           <button class="startBtn" type="submit">Next</button>
         </form>
