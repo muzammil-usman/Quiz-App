@@ -9,15 +9,18 @@ var inputLength = document.getElementById("username");
 
 function nameLengthChecker(e) {
   if (e.target.value.length < 3) {
+    redFlag = false;
     nameError.innerText = "Name should be greater than 2 character";
     nameError.style.display = "block";
     return;
   }
   if (!regex.test(e.target.value)) {
+    redFlag = false;
     nameError.innerText = "Numbers not allowed";
     nameError.style.display = "block";
     return;
   }
+
   nameError.style.display = "none";
   redFlag = true;
   var userData = {
